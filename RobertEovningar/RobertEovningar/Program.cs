@@ -57,7 +57,20 @@ namespace RobertEovningar
 
             }
 
+            string answer = "";
+            int A = int.Parse(answer);
 
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine("Skriv in ett tal!");
+                if (answer >= 5)
+                {
+
+
+                }
+
+
+            }
         }
     }
 }
