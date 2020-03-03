@@ -33,7 +33,29 @@ namespace RobertEovningar
             Console.WriteLine("Your username is " + name + " and your password is " + password);
             Console.ReadKey();
 
+            for (int i = 0; i < 32; i++)
+            {
+                Console.WriteLine("Hello World!");
+            }
+            Console.ReadKey();
 
+            while (true)
+            {
+                Console.WriteLine("What is your password, " + name + "?");
+                if (Console.ReadLine() == password)
+                {
+                    Console.WriteLine("Correct!");
+                    break;
+                    
+                }
+                else
+                {
+                    Console.WriteLine("Wrong password! try again..");
+
+
+                }
+
+            }
 
 
         }
